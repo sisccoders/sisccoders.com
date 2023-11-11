@@ -135,30 +135,30 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "./src/images/logo/pwny8-48x48.png",
+        icon: "./src/images/logo/logo-48.png",
         icons: [
           {
-            src: "./src/images/logo/pwny8-32x32.png",
+            src: "./src/images/logo/logo.png",
             sizes: "32x32",
             type: "image/png",
           },
           {
-            src: "./src/images/logo/pwny8-dark-128x128.png",
+            src: "./src/images/logo/logo-dark-128.png",
             sizes: "128x128",
             type: "image/png",
           },
           {
-            src: "./src/images/logo/pwny8-dark-192x192.png",
+            src: "./src/images/logo/logo-dark-192.png",
             sizes: "192x192",
             type: "image/png",
           },
           {
-            src: "./src/images/logo/pwny8-dark-256x256.png",
+            src: "./src/images/logo/logo-dark-256.png",
             sizes: "256x256",
             type: "image/png",
           },
           {
-            src: "./src/images/logo/pwny8-dark-512x512.png",
+            src: "./src/images/logo/logo-dark-512.png",
             sizes: "512x512",
             type: "image/png",
           },

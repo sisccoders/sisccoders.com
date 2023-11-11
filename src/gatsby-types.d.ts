@@ -2601,7 +2601,7 @@ type MdxFrontmatter = {
   readonly publisher: Maybe<Scalars['String']>;
   readonly recording: Maybe<Scalars['String']>;
   readonly role: Maybe<Scalars['String']>;
-  readonly series: Maybe<Scalars['String']>;
+  readonly series: Maybe<Scalars['Int']>;
   readonly slides: Maybe<File>;
   readonly sponsors: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly stats: Maybe<ReadonlyArray<Maybe<MdxFrontmatterStats>>>;
@@ -2643,28 +2643,28 @@ type MdxFrontmatterCard_image = {
   readonly alt: Maybe<Scalars['String']>;
   readonly background: Maybe<File>;
   readonly background_color: Maybe<Scalars['String']>;
-  readonly foreground: Maybe<File>;
+  readonly foreground: Maybe<Scalars['String']>;
 };
 
 type MdxFrontmatterCard_imageFieldSelector = {
   readonly alt: InputMaybe<FieldSelectorEnum>;
   readonly background: InputMaybe<FileFieldSelector>;
   readonly background_color: InputMaybe<FieldSelectorEnum>;
-  readonly foreground: InputMaybe<FileFieldSelector>;
+  readonly foreground: InputMaybe<FieldSelectorEnum>;
 };
 
 type MdxFrontmatterCard_imageFilterInput = {
   readonly alt: InputMaybe<StringQueryOperatorInput>;
   readonly background: InputMaybe<FileFilterInput>;
   readonly background_color: InputMaybe<StringQueryOperatorInput>;
-  readonly foreground: InputMaybe<FileFilterInput>;
+  readonly foreground: InputMaybe<StringQueryOperatorInput>;
 };
 
 type MdxFrontmatterCard_imageSortInput = {
   readonly alt: InputMaybe<SortOrderEnum>;
   readonly background: InputMaybe<FileSortInput>;
   readonly background_color: InputMaybe<SortOrderEnum>;
-  readonly foreground: InputMaybe<FileSortInput>;
+  readonly foreground: InputMaybe<SortOrderEnum>;
 };
 
 type MdxFrontmatterFieldSelector = {
@@ -2725,7 +2725,7 @@ type MdxFrontmatterFilterInput = {
   readonly publisher: InputMaybe<StringQueryOperatorInput>;
   readonly recording: InputMaybe<StringQueryOperatorInput>;
   readonly role: InputMaybe<StringQueryOperatorInput>;
-  readonly series: InputMaybe<StringQueryOperatorInput>;
+  readonly series: InputMaybe<IntQueryOperatorInput>;
   readonly slides: InputMaybe<FileFilterInput>;
   readonly sponsors: InputMaybe<StringQueryOperatorInput>;
   readonly stats: InputMaybe<MdxFrontmatterStatsFilterListInput>;

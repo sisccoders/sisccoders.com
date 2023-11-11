@@ -14,7 +14,7 @@ export function Head() {
   return (
     <Seo
       title="Join"
-      description="Join SIGPwny, the hacking club at UIUC!"
+      description="Join Coders Club, the Coding club at SISC!"
     />
   )
 }
@@ -42,15 +42,15 @@ const JoinPage = ({ data }: Props) => {
     <div className="2xl:px-40">
       <section id="join-title" className="grid gap-x-8 lg:grid-cols-2 py-8">
         <div className="flex flex-col flex-grow pb-4 basis-1/2">
-          <h1>Welcome to SIGPwny!</h1>
+          <h1>Welcome to SISC Coders!</h1>
           <p className="text-3xl mb-0">
-            Come learn cybersecurity with 2000+ students, alum, and
-            professionals in our Discord server.
+            Come learn coding with 20+ in our biweekly meetings. Join our <a href={discord_link} target="_blank" rel="noopener noreferrer">Discord</a>&nbsp; 
+            as well. We'll be providing you with tons of opportunities and resources.
           </p>
-          <a href={discord_link} target="_blank" rel="noopener noreferrer"
+          <a href="https://docs.google.com/forms/u/2/d/e/1FAIpQLSev8mHlyDk_jyPd1YT1Nx7tVk1EGmUGqKIbmNF8RsfCR0l73w/viewform" target="_blank" rel="noopener noreferrer"
             className="place-self-start font-bold text-xl lg:text-2xl my-3 leading-normal btn-primary"
           >
-            Join Discord
+            Sign up here
           </a>
           <ul className="list-decimal pl-6 pt-2">
             <li>

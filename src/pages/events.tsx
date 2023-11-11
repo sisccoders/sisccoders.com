@@ -22,10 +22,10 @@ export function Head() {
 const EventsPage = ({ data }: Props) => {
   const events = data.allEvent.events
   const events_uiuctf = events.filter(
-    (event_: Event) => event_.series.toLowerCase() === "uiuctf"
+    (event_: Event) => event_.series.toLowerCase() === "2023"
   )
   const events_fallctf = events.filter(
-    (event_: Event) => event_.series.toLowerCase() === "fallctf"
+    (event_: Event) => event_.series.toLowerCase() === "2022"
   )
   const cards_uiuctf = events_uiuctf.map((event_: Event) => (
     {
