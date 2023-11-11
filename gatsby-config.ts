@@ -17,7 +17,7 @@ const config: GatsbyConfig = {
     ],
     navCallToActionLinks: [{ name: "Join", url: "/join/" }],
     socialLinks: [
-      { name: "Discord", url: "https://discord.gg/cWcZ6a9" },
+      { name: "Discord", url: "https://discord.gg/ZnxdrH9k5y" },
       { name: "GitHub", url: "https://github.com/sisccoders/SISC-Coders-2023" },
       { name: "Instagram", url: "https://www.instagram.com/nerdykoreankid/" },
     ],
