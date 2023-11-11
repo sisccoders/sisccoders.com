@@ -40,7 +40,7 @@ const SponsorsPage = ({ data }: Props) => {
       <span>
         <h1>Sponsors</h1>
         <p>
-          Thank you to our sponsors for supporting SIGPwny!
+          None yet 😭
         </p>
         <div className="flex flex-col gap-4">
           {featured_orgs.length > 0 ? (
@@ -72,7 +72,7 @@ const SponsorsPage = ({ data }: Props) => {
       <div className="panel">
         <h2>Interested in sponsoring?</h2>
         <p>
-          Please contact us at <a href="mailto:sponsors@sigpwny.com">sponsors@sigpwny.com</a>!
+          Please contact us at <a href="mailto:sisccoders@sgen.edu.ph">sisccoders@sgen.edu.ph</a>!
           Sponsors can receive a variety of benefits, from resume books to 
           recruiting events. We are happy to work with you!
         </p>

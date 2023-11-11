@@ -5,10 +5,10 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: `SIGPwny`,
     siteUrl: `https://sigpwny.com`, // no trailing slash
-    description: `SIGPwny is a student-run organization at the University of Illinois Urbana-Champaign focused on information security and privacy.`,
+    description: `Coders Club is a collaborative space in Southville International School and Colleges for anyone interested in coding.`,
     image: `https://sigpwny.com/pwny8-dark-512x512.png`,
     navLinks: [
-      { name: "SIGPwny", url: "/" },
+      { name: "SISC Coders", url: "/" },
       { name: "About", url: "/about/" },
       { name: "Meetings", url: "/meetings/" },
       { name: "Publications", url: "/publications/"},
@@ -18,10 +18,8 @@ const config: GatsbyConfig = {
     navCallToActionLinks: [{ name: "Join", url: "/join/" }],
     socialLinks: [
       { name: "Discord", url: "https://discord.gg/cWcZ6a9" },
-      { name: "GitHub", url: "https://github.com/sigpwny" },
-      { name: "Instagram", url: "https://www.instagram.com/sigpwny/" },
-      { name: "Twitter", url: "https://twitter.com/sigpwny" },
-      { name: "YouTube", url: "https://www.youtube.com/@sigpwny" },
+      { name: "GitHub", url: "https://github.com/sisccoders/SISC-Coders-2023" },
+      { name: "Instagram", url: "https://www.instagram.com/nerdykoreankid/" },
     ],
     twitterUsername: "@sigpwny",
     timezone: "America/Chicago",

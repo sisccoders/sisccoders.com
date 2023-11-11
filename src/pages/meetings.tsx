@@ -19,7 +19,7 @@ export const Head = () => {
   return (
     <Seo
       title="Meetings"
-      description="Index of all SIGPwny meetings"
+      description="Index of all SISC Coders meetings"
     />
   );
 };
@@ -113,9 +113,9 @@ const MeetingsPage = ({ data }: Props) => {
       <div className="flex flex-col mx-auto page-width-lg">
         <h1>Meetings</h1>
         <p>
-          Our meetings are on Thursdays at 7–8 PM and Sundays at 2–3 PM and are usually located in Siebel CS 1404.&nbsp;
+          Our meetings are on Thursday at 3:30–4:30 PM and are held online.
           <br className="hidden lg:block" />
-          We will always provide a Zoom meeting link and publish a recording on YouTube afterward.
+          <a href="https://meet.google.com/rje-xfxp-qgb" target="_blank">Coder Club Seniors Link</a>. <a href="https://meet.google.com/cbd-vebg-zvn" target="_blank">Coder Club Juniors Link</a>.
         </p>
         <div className="panel">
           {Object.entries(meetingsBySemester).map(([semester, meetings]) => (

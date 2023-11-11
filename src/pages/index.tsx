@@ -34,30 +34,30 @@ const IndexPage = ({ data }: Props) => {
       <section id="welcome" className="pb-8">
         <div className="flex flex-col">
           <div className="lg:order-2 pb-6 lg:w-2/3 lg:p-0 xl:w-1/2 mx-auto text-center">
-            <h1 className="lg:text-6xl">Hacking @ UIUC</h1>
+            <h1 className="lg:text-6xl">Coders Club @ SISC</h1>
             <p>{data.site?.siteMetadata.description}</p>
             <Link to="/about/" className="btn-primary">Learn more</Link>
           </div>
           <div className="flex lg:order-1 gap-8 pr-20 sm:columns-2 sm:p-0 md:pr-20 lg:columns-3 lg:gap-12 lg:p-0 lg:pb-2 xl:gap-16 2xl:gap-16 2xl:px-28">
             <div className="pt-6 w-full">
-              <StaticImage className="rounded-xl pointer-events-none select-none border-surface-100 border-2" src="../images/home-promo/home-1.jpg" alt="SIGPwny members concentrated on solving challenges during a CTF" placeholder="blurred" />
+              <StaticImage className="rounded-xl pointer-events-none select-none border-surface-100 border-2" src="../images/home-promo/ss1.png" alt="SIGPwny members concentrated on solving challenges during a CTF" placeholder="blurred" />
             </div>
             <div className="pt-0 w-full hidden sm:block">
-              <StaticImage className="rounded-xl pointer-events-none select-none border-surface-100 border-2" src="../images/home-promo/home-2.jpg" alt="Two SIGPwny members taking a pizza break during Fall CTF 2023" placeholder="blurred" />
+              <StaticImage className="rounded-xl pointer-events-none select-none border-surface-100 border-2" src="../images/home-promo/ss5.jpg" alt="Two SIGPwny members taking a pizza break during Fall CTF 2023" placeholder="blurred" />
             </div>
             <div className="pt-12 w-full hidden lg:block">
-              <StaticImage className="rounded-xl pointer-events-none select-none border-surface-100 border-2" src="../images/home-promo/home-3.jpg" alt="SIGPwny helpers present on web hacking during a weekly meting" placeholder="blurred" />
+              <StaticImage className="rounded-xl pointer-events-none select-none border-surface-100 border-2" src="../images/home-promo/ss3.png" alt="SIGPwny helpers present on web hacking during a weekly meting" placeholder="blurred" />
             </div>
           </div>
           <div className="flex lg:order-3 gap-8 pl-20 pb-2 sm:columns-2 sm:p-0 md:pl-20 lg:columns-3 lg:gap-12 lg:p-0 xl:gap-16 2xl:gap-16 2xl:px-28">
             <div className="pt-0 w-full hidden lg:block">
-              <StaticImage className="rounded-xl pointer-events-none select-none border-surface-100 border-2" src="../images/home-promo/home-4.jpg" alt="A presentation on reverse engineering during Fall CTF 2023" placeholder="blurred" />
+              <StaticImage className="rounded-xl pointer-events-none select-none border-surface-100 border-2" src="../images/home-promo/ss4.jpeg" alt="A presentation on reverse engineering during Fall CTF 2023" placeholder="blurred" />
             </div>
             <div className="pt-12 w-full hidden sm:block">
-              <StaticImage className="rounded-xl pointer-events-none select-none border-surface-100 border-2" src="../images/home-promo/home-5.jpg" alt="SIGPwny members laughing in front of grafitti during a spray paint social event" placeholder="blurred" />
+              <StaticImage className="rounded-xl pointer-events-none select-none border-surface-100 border-2" src="../images/home-promo/ss2.png" alt="SIGPwny members laughing in front of grafitti during a spray paint social event" placeholder="blurred" />
             </div>
             <div className="pt-6 w-full">
-              <StaticImage className="rounded-xl pointer-events-none select-none border-surface-100 border-2" src="../images/home-promo/home-6.jpg" alt="Two SIGPwny members solving Fall CTF 2023 challenges" placeholder="blurred" />
+              <StaticImage className="rounded-xl pointer-events-none select-none border-surface-100 border-2" src="../images/home-promo/ss6.jpg" alt="Two SIGPwny members solving Fall CTF 2023 challenges" placeholder="blurred" />
             </div>
           </div>
         </div>

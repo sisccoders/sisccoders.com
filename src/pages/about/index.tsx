@@ -145,7 +145,7 @@ const SIGPwnyMorphology = () => {
     >
       <motion.div layout className="flex flex-col">
         <p className="text-primary font-bold text-right text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
-          SIG
+          SISC
         </p>
         <motion.div
           layout
@@ -155,7 +155,7 @@ const SIGPwnyMorphology = () => {
         >
           <p className="text-center">&#8595;</p>
           <p className="font-bold text-center">
-            Special <br />Interest <br />Group
+            Southville <br />International <br />School<br />Colleges
           </p>
         </motion.div>
       </motion.div>
@@ -172,7 +172,7 @@ const SIGPwnyMorphology = () => {
       </motion.div>
       <motion.div layout className="flex flex-col">
         <p className="text-primary font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
-          Pwn
+          Coders
         </p>
         <motion.div
           layout
@@ -183,33 +183,6 @@ const SIGPwnyMorphology = () => {
           <p className="text-center">&#8595;</p>
           <p className="font-bold text-center">
             To hack <br />or "own" <br />(slang)
-          </p>
-        </motion.div>
-      </motion.div>
-      <motion.div
-        layout
-        className={"flex flex-col" + (isExpanded ? "" : " hidden")}
-        variants={variants}
-        initial="minimized"
-        animate={isExpanded ? "expanded" : "minimized"}
-      >
-        <p className="text-primary font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
-          &nbsp;&bull;&nbsp;
-        </p>
-      </motion.div>
-      <motion.div layout className="flex flex-col">
-        <p className="text-primary font-bold text-left text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
-          y
-        </p>
-        <motion.div
-          layout
-          variants={variants}
-          initial="minimized"
-          animate={isExpanded ? "expanded" : "minimized"}
-        >
-          <p className="text-center">&#8595;</p>
-          <p className="font-bold text-center">
-            For <br />cool <br />logo
           </p>
         </motion.div>
       </motion.div>
@@ -253,10 +226,6 @@ const AboutPage = ({ data }: any) => {
         <section id="acronym" className="py-8">
           <div className="flex flex-col">
             <SIGPwnyMorphology />
-            <div className="flex flex-row justify-center">
-              <p>sig-<b>poh</b>-nee</p>
-              {/* <p>&nbsp;<small>[audio]</small></p> */}
-            </div>
           </div>
         </section>
         <section id="what-we-do">
@@ -266,8 +235,8 @@ const AboutPage = ({ data }: any) => {
                 What do we do?
               </p>
               <p className="m-0">
-                As the cybersecurity club at the University of Illinois Urbana-Champaign, our mission is to 
-                teach students cybersecurity through meetings, competitions, and research.
+                As the Coders Club at Southville International School and Colleges, our mission is to 
+                foster love of coding in students through meetings, competitions, and hackathons.
               </p>
             </div>
           </div>
@@ -279,8 +248,8 @@ const AboutPage = ({ data }: any) => {
                 We're beginner-friendly
               </p>
               <p className="m-0">
-                We believe cybersecurity should be accessible to all, so we teach everything from the ground up. Our 
-                club content is designed to be approached by <em>anyone</em>, regardless of skill, major, or experience.
+                We believe coding should be accessible to all, so we teach everything from the ground up. Our 
+                club content is designed to be approached by <em>anyone</em>, regardless of prior knowledge or experience.
               </p>
             </div>
           </div>
@@ -289,11 +258,11 @@ const AboutPage = ({ data }: any) => {
           <div className="text-center">
             <div className="panel mx-auto max-w-prose">
               <p className="font-bold text-4xl">
-                Our teaching philosophy
+                Our sessions
               </p>
               <p className="m-0">
-                We believe that the best way to learn is by doing &ndash; so we're not going to lecture you for an hour. 
-                Our meetings are typically 15 minutes of presentation followed by 45 minutes of hands-on hacking.
+                We believe that the best way to learn is by doing &ndash; so we're not going to lecture you for an entire hour. 
+                Our meetings are typically 25 minutes of presentation followed by 20 minutes of hands-on coding.
               </p>
               <StaticImage className="rounded-xl pointer-events-none w-1/3" src="./meeting-format-chart.png" alt="A pie chart showing the 15/45 meeting time breakdown." placeholder="blurred" />
             </div>
@@ -315,8 +284,8 @@ const AboutPage = ({ data }: any) => {
             <div className="panel mx-auto max-w-prose">
               <p className="font-bold text-4xl">Who are we?</p>
               <p className="m-0">
-                SIGPwny is completely student-run and would not be able to support everyone without the contributions 
-                from our admin team, helpers, and alumni.
+                SISC Coders is led by the student leaders and moderated by Ms. Jeline and Ms. Ems. Without each person's contribution,
+                the club would not be able to spread its mission.
               </p>
             </div>
           </div>
@@ -325,7 +294,7 @@ const AboutPage = ({ data }: any) => {
             <ProfileCardGrid profiles={data.allAdmin.admins} />
           </section>
           <section id="helpers" className="pb-8">
-            <h1>Helper Team</h1>
+            <h1>Club Moderators</h1>
             <ProfileCardGrid profiles={data.allHelper.helpers} />
           </section>
           <section id="alumni" className="pb-8">
