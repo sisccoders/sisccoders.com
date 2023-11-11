@@ -1,7 +1,6 @@
-# sigpwny.com
-[![Production deployment build status](https://github.com/sigpwny/sigpwny.com/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/sigpwny/sigpwny.com/actions/workflows/deploy.yml)
+# sisccoders.com
 
-The SIGPwny website, built with Gatsby.
+The SISC Coders Club website, built with Gatsby.
 
 ## Content Types
 Content is composed of Markdown(X) and JSON files in the `content` directory. For more information about the defined content types, see the [content README](./content/README.md).

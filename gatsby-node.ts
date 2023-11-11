@@ -477,7 +477,7 @@ exports.createResolvers = ({ createResolvers }) => {
       siteMetadata: {
         resolve: (source, args, context, info) => {
           return {
-            title: source.siteMetadata.title || "SIGPwny",
+            title: source.siteMetadata.title || "SISC Coders",
             siteUrl: source.siteMetadata.siteUrl || "https://sigpwny.com",
             description: source.siteMetadata.description || "",
             image: source.siteMetadata.image || "",
@@ -485,7 +485,7 @@ exports.createResolvers = ({ createResolvers }) => {
             navCallToActionLinks:
               source.siteMetadata.navCallToActionLinks || [],
             socialLinks: source.siteMetadata.socialLinks || [],
-            twitterUsername: source.siteMetadata.twitterUsername || "@sigpwny",
+            twitterUsername: source.siteMetadata.twitterUsername || "@sisccoders",
             timezone: source.siteMetadata.timezone || "America/Chicago",
           };
         },
