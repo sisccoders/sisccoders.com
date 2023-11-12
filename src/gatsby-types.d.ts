@@ -2605,8 +2605,8 @@ type MdxFrontmatter = {
   readonly slides: Maybe<File>;
   readonly sponsors: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly stats: Maybe<ReadonlyArray<Maybe<MdxFrontmatterStats>>>;
-  readonly time_close: Maybe<Scalars['Date']>;
-  readonly time_start: Maybe<Scalars['Date']>;
+  readonly time_close: Maybe<Scalars['String']>;
+  readonly time_start: Maybe<Scalars['String']>;
   readonly timezone: Maybe<Scalars['String']>;
   readonly title: Maybe<Scalars['String']>;
   readonly week_number: Maybe<Scalars['Int']>;
@@ -2616,22 +2616,6 @@ type MdxFrontmatter = {
 
 
 type MdxFrontmatter_dateArgs = {
-  difference: InputMaybe<Scalars['String']>;
-  formatString: InputMaybe<Scalars['String']>;
-  fromNow: InputMaybe<Scalars['Boolean']>;
-  locale: InputMaybe<Scalars['String']>;
-};
-
-
-type MdxFrontmatter_time_closeArgs = {
-  difference: InputMaybe<Scalars['String']>;
-  formatString: InputMaybe<Scalars['String']>;
-  fromNow: InputMaybe<Scalars['Boolean']>;
-  locale: InputMaybe<Scalars['String']>;
-};
-
-
-type MdxFrontmatter_time_startArgs = {
   difference: InputMaybe<Scalars['String']>;
   formatString: InputMaybe<Scalars['String']>;
   fromNow: InputMaybe<Scalars['Boolean']>;
@@ -2727,8 +2711,8 @@ type MdxFrontmatterFilterInput = {
   readonly slides: InputMaybe<FileFilterInput>;
   readonly sponsors: InputMaybe<StringQueryOperatorInput>;
   readonly stats: InputMaybe<MdxFrontmatterStatsFilterListInput>;
-  readonly time_close: InputMaybe<DateQueryOperatorInput>;
-  readonly time_start: InputMaybe<DateQueryOperatorInput>;
+  readonly time_close: InputMaybe<StringQueryOperatorInput>;
+  readonly time_start: InputMaybe<StringQueryOperatorInput>;
   readonly timezone: InputMaybe<StringQueryOperatorInput>;
   readonly title: InputMaybe<StringQueryOperatorInput>;
   readonly week_number: InputMaybe<IntQueryOperatorInput>;

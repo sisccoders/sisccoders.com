@@ -1,11 +1,14 @@
 ---
-title: Intro to Terminal and Setup (Session 1)
-time_start: 2023-09-03T14:00:00.000-05:00
-time_close: 2023-09-03T15:00:00.000-05:00
-week_number: 1
+title: Functions and Conditionals
+time_start: 2023-11-09T07:30:00.000z
+time_close: 2023-11-09T08:30:00.000z
+week_number: 2
 credit:
-  - Pete Stenger
-  - Emma Hartman
+  - SISC Coders
+  - Hyunkyu Song
+  - Enzo Soriano
+  - Keira Mallare
+  - Jeline Pagdonsonlan
 featured: true
 location: Siebel CS 1404
 image:

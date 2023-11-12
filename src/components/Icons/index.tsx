@@ -130,7 +130,7 @@ export const PdfSvg = (style: React.CSSProperties) => (
  * Add height and width props to the SVG tag.
  */
 export const PwnySvg = (style: React.CSSProperties) => (
-    <svg id="Pwny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 356.73 377.97" style={{...icon_style, ...style}}><defs><style>{".cls-1{stroke:var(--color-primary);stroke-linejoin:round;stroke-width:4px;}.cls-1,.cls-2{fill:var(--color-primary);}"}</style></defs><path fill="#000000" opacity="1.000000" stroke="none" 
+    <svg id="Pwny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" style={{...icon_style, ...style}}><defs><style>{".cls-1{stroke:var(--color-primary);stroke-linejoin:round;stroke-width:4px;}.cls-1,.cls-2{fill:var(--color-primary);}"}</style></defs><path fill="#000000" opacity="1.000000" stroke="none" 
     d="
   M236.000000,501.000000 
     C158.666687,501.000000 81.833321,500.970825 5.000212,501.096191 

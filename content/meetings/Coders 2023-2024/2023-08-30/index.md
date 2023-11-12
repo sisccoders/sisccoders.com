@@ -1,7 +1,7 @@
 ---
-title: Bowling Social
-time_start: 2023-08-31T00:00:00.000Z
-time_close: 2023-08-31T02:00:00.000Z
+title: Intro to Python - variables & print
+time_start: 2023-10-26T07:30:00.000Z
+time_close: 2023-10-26T08:30:00.000Z
 week_number: 1
 credit:
   - SIGPwny

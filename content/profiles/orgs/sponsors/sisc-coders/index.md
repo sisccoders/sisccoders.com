@@ -1,14 +1,14 @@
 ---
 name: SISC Coders
-profile_image: icon.jpg
+profile_image: logo-512.png
 card_image:
-  foreground: battelle.svg
+  foreground: logo.svg
   background_color: "#002b73"
-affiliation: Battelle
-bio: It can be done.
+affiliation: Southville International School and Colleges
+bio: SISC Coders
 role: Sponsor
 weight: 8
 links:
   - name: website
-    url: https://www.battelle.org/
+    url: https://www.sisccoders.com
 ---

@@ -37,7 +37,7 @@ const JoinPage = ({ data }: Props) => {
     createCard({meeting, timezone: meeting.timezone} as CardMeetingProps)
   ))
   const socials = data.site?.siteMetadata?.socialLinks
-  const discord_link = socials?.find((social) => social?.name === "Discord")?.url || "https://sigpwny.com/discord"
+  const discord_link = socials?.find((social) => social?.name === "Discord")?.url || "https://discord.gg/ZnxdrH9k5y"
   return (
     <div className="2xl:px-40">
       <section id="join-title" className="grid gap-x-8 lg:grid-cols-2 py-8">
@@ -45,7 +45,7 @@ const JoinPage = ({ data }: Props) => {
           <h1>Welcome to SISC Coders!</h1>
           <p className="text-3xl mb-0">
             Come learn coding with 20+ in our biweekly meetings. Join our <a href={discord_link} target="_blank" rel="noopener noreferrer">Discord</a>&nbsp; 
-            as well. We'll be providing you with tons of opportunities and resources.
+            for tons of opportunities and resources.
           </p>
           <a href="https://docs.google.com/forms/u/2/d/e/1FAIpQLSev8mHlyDk_jyPd1YT1Nx7tVk1EGmUGqKIbmNF8RsfCR0l73w/viewform" target="_blank" rel="noopener noreferrer"
             className="place-self-start font-bold text-xl lg:text-2xl my-3 leading-normal btn-primary"
@@ -55,10 +55,6 @@ const JoinPage = ({ data }: Props) => {
           <ul className="list-decimal pl-6 pt-2">
             <li>
               By joining, you agree to our club <Link to="/rules/">rules</Link>.
-            </li>
-            <li>
-              If you are affiliated with UIUC, make sure to <a href="https://sigpwny.com/auth" target="_blank" rel="noopener noreferrer">authenticate</a> to
-              receive the @uiuc role and access club channels.
             </li>
           </ul>
         </div>
@@ -113,11 +109,11 @@ const JoinPage = ({ data }: Props) => {
       </section>
 
       <section id="join-leadership" className="py-8">
-        <h1>FAQ / Get Involved</h1>
+        <h1>FAQs</h1>
         <p className="mt-4 mb-0">
-          Interested in learning more about the club? Want to get involved?
+          Interested in learning more about the club?
 
-          Check out our <Link to="/faq/">FAQ</Link> or reach out to a helper on
+          Check out our <Link to="/faq/">FAQ</Link> or reach out to a leader on
           Discord!
         </p>
       </section>

@@ -69,7 +69,7 @@ const MeetingTemplate = ({ data, children }: Props) => {
         <div className="flex flex-col">
           <h1 className="mb-1" itemProp="headline">{meeting.title}</h1>
           <p className="font-mono m-0 order-first">
-            {meeting.semester} Week {weekNumber(meeting.week_number)}
+            {dayjs(meeting.time_start).year()} Week {weekNumber(meeting.week_number)}
           </p>
           {meeting.tags && meeting.tags.length > 0 ? (
             <div className="flex flex-row mb-1">

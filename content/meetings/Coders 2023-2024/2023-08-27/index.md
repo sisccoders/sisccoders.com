@@ -1,12 +1,11 @@
 ---
-title: Introduction
-time_start: 2023-08-27T19:00:00.000Z
-time_close: ""
+title: Welcome to Coders
+time_start: 2023-10-05T07:30:00.000Z
+time_close: 2023-10-05T08:30:00.000Z
 week_number: 0
 credit:
-  - SIGPwny
-featured: true
-location: Siebel CS 1404 + Zoom
+  - SISC Coders
+location: Google Meet
 image:
   path: img_0986.jpeg
   alt: A crowded room of SIGPwny members
@@ -18,7 +17,8 @@ slides: week-00_-introduction.pdf
 recording: https://youtu.be/c08qoljJfzI
 tags:
   - welcome
-  - intro
+  - to
+  - coders
 ---
 ## Summary
-Join us for our introduction and information session! Learn about SIGPwny as a club, our teaching philosophy, and how to get involved with our opportunities! And also make new friends :)
+Join us in SISC Coders A.Y. 2023-2024. Learn about SISC Coders as a club, our teaching philosophy, and how to get involved with our opportunities! And also make new friends :)

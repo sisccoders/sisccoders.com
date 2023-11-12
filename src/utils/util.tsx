@@ -22,13 +22,13 @@ export function formatSemester(semester: string): string {
   const season = semester.slice(0, 2)
   const year = semester.slice(2, 6)
   if (season === "SP") {
-    return `Spring ${year}`
+    return `${year}`
   } else if (season === "FA") {
-    return `Fall ${year}`
+    return `${year}`
   } else if (season === "SU") {
-    return `Summer ${year}`
+    return `${year}`
   } else if (season === "WI") {
-    return `Winter ${year}`
+    return `${year}`
   }
   return semester
 }

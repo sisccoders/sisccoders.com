@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
         <p>
           &copy; {new Date().getFullYear()} SISC Coders. The Coders Club is a 501(c)(3) non-profit organization.
-          Site source on <a href="https://github.com/sisccoders/SISC-Coders-2023" target="_blank" rel="noopener noreferrer">GitHub</a>.
+          Site source on <a href="https://github.com/sisccoders/sisccoders.com" target="_blank" rel="noopener noreferrer">GitHub</a>.
         </p>
       </div>
     </footer>
