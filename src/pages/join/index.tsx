@@ -59,8 +59,8 @@ const JoinPage = ({ data }: Props) => {
           </ul>
         </div>
         <StaticImage
-          src="./2023-09-07-web-hacking-i.jpg"
-          alt="SIGPwny members gather for a web hacking meeting"
+          src="./meeting.png"
+          alt="Coders Club Meeting"
           className="rounded-xl pointer-events-none select-none border-surface-100 border-2 basis-1/2"
           placeholder="blurred"
         />
