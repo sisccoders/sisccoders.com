@@ -5,16 +5,17 @@ time_close: 2023-10-05T08:30:00.000Z
 week_number: 0
 credit:
   - SISC Coders
+featured: true
 location: Google Meet
 image:
-  path: img_0986.jpeg
-  alt: A crowded room of SIGPwny members
+  path: img.png
+  alt: Screenshot
 card_image:
-  background: img_0986.jpeg
-  alt: A crowded room of SIGPwny members
-live_video_url: https://illinois.zoom.us/j/81312114426?pwd=N3dMeWMwdCtqNVRvWnJOeTR5WGlSZz09
-slides: week-00_-introduction.pdf
-recording: https://youtu.be/c08qoljJfzI
+  background: img.png
+  alt: Screenshot
+live_video_url: ""
+slides: ""
+recording: ""
 tags:
   - welcome
   - to

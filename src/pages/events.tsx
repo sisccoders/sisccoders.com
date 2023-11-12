@@ -42,17 +42,16 @@ const EventsPage = ({ data }: Props) => {
   return (
     <>
       <section id="uiuctf" className="pb-8">
-        <h1>UIUCTF</h1>
+        <h1>2023-2024</h1>
         <p>
-          UIUCTF is SIGPwny's premier global CTF competition.
+          Coders Club A.Y. 2023-2024
         </p>
         <CardGrid cards={cards_uiuctf} />
       </section>
       <section id="fallctf" className="pb-8">
-        <h1>Fall CTF</h1>
+        <h1>2022-2023</h1>
         <p>
-          Fall CTF is a beginner-friendly CTF competition for UIUC students, 
-          designed to introduce students to cybersecurity topics.
+          Coders Club A.Y. 2022-2023
         </p>
         <CardGrid cards={cards_fallctf} />
       </section>

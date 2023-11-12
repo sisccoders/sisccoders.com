@@ -1,15 +1,15 @@
 ---
-name: CrowdStrike
-profile_image: icon.jpg
+name: sample
+profile_image: logo-512.png
 card_image:
-  foreground: CS_Logos_2022_FullWhite_RGB_resize.svg
-affiliation: CrowdStrike
-bio: At CrowdStrike, our mission is to stop breaches to allow our customers to go, protect, heal, and change the world.
-handle: CrowdStrike
+  foreground: logo.svg
+affiliation: sisc
+bio: At SISC, our mission is to stop breaches to allow our customers to go, protect, heal, and change the world.
+handle: sisc-coders
 role: Workshop Sponsor
 weight: 4
 links:
   - name: website
-    url: https://www.crowdstrike.com/
+    url: https://sisccoders.com/
 featured: true
 ---

@@ -73,37 +73,34 @@ const JoinPage = ({ data }: Props) => {
             <h2>Learn</h2>
             <p>
               Attending our weekly meetings is the easiest way to learn
-              security and meet others! Watch past meetings and find
+              coding and meet others! Watch past meetings and find
               upcoming meetings <Link to="/meetings/">here</Link>.
             </p>
           </div>
           <div className="panel">
             <h2>Compete</h2>
             <p>
-              We play in cybersecurity competitions known as CTFs (capture the
-              flag). Collaborating as a team lets us learn from each other and
-              have fun!
+              We provide opportunities such as hackathons and competitions in our <a href={discord_link} target="_blank" rel="noopener noreferrer">Discord</a>. Feel free to join
+              these events not just to boost your resume, but more importantly to improve your skills.
             </p>
           </div>
           <div className="panel">
-            <h2>Research</h2>
+            <h2>Collaborate</h2>
             <p>
-              We have connections with professors and graduate students at <a href="https://spri.engr.illinois.edu/" target="_blank" rel="noopener noreferrer">SPR@I</a>.
-              We also support individual projects run by our members.
+              Our club philosophy is to foster an environment of students with common passion. We strongly
+              encourage you to collaborate with other members in solving problem sets or initiating projects.
             </p>
           </div>
         </div>
         <p className="pt-4">
-          SIGPwny is open to all - there are no member applications, mandatory
-          meetings, or even prerequisite knowledge needed.
+          SISC Coders is open to all Southville students - simply apply through the sign up form above.
         </p>
       </section>
 
       <section id="join-beginner" className="py-8">
-        <h1>Beginner Topics</h1>
+        <h1>Past Meetings</h1>
         <p>
-          Learn the fundamental skills to quickly get into hacking and more
-          advanced topics!
+          Check our club's past meetings.
         </p>
         <CardRow cards={meeting_cards} maxFour={true} />
       </section>

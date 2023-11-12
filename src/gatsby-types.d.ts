@@ -2602,12 +2602,11 @@ type MdxFrontmatter = {
   readonly recording: Maybe<Scalars['String']>;
   readonly role: Maybe<Scalars['String']>;
   readonly series: Maybe<Scalars['Int']>;
-  readonly slides: Maybe<File>;
+  readonly slides: Maybe<Scalars['String']>;
   readonly sponsors: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly stats: Maybe<ReadonlyArray<Maybe<MdxFrontmatterStats>>>;
   readonly time_close: Maybe<Scalars['String']>;
   readonly time_start: Maybe<Scalars['String']>;
-  readonly timezone: Maybe<Scalars['String']>;
   readonly title: Maybe<Scalars['String']>;
   readonly week_number: Maybe<Scalars['Int']>;
   readonly weight: Maybe<Scalars['Int']>;
@@ -2624,30 +2623,30 @@ type MdxFrontmatter_dateArgs = {
 
 type MdxFrontmatterCard_image = {
   readonly alt: Maybe<Scalars['String']>;
-  readonly background: Maybe<Scalars['String']>;
+  readonly background: Maybe<File>;
   readonly background_color: Maybe<Scalars['String']>;
-  readonly foreground: Maybe<Scalars['String']>;
+  readonly foreground: Maybe<File>;
 };
 
 type MdxFrontmatterCard_imageFieldSelector = {
   readonly alt: InputMaybe<FieldSelectorEnum>;
-  readonly background: InputMaybe<FieldSelectorEnum>;
+  readonly background: InputMaybe<FileFieldSelector>;
   readonly background_color: InputMaybe<FieldSelectorEnum>;
-  readonly foreground: InputMaybe<FieldSelectorEnum>;
+  readonly foreground: InputMaybe<FileFieldSelector>;
 };
 
 type MdxFrontmatterCard_imageFilterInput = {
   readonly alt: InputMaybe<StringQueryOperatorInput>;
-  readonly background: InputMaybe<StringQueryOperatorInput>;
+  readonly background: InputMaybe<FileFilterInput>;
   readonly background_color: InputMaybe<StringQueryOperatorInput>;
-  readonly foreground: InputMaybe<StringQueryOperatorInput>;
+  readonly foreground: InputMaybe<FileFilterInput>;
 };
 
 type MdxFrontmatterCard_imageSortInput = {
   readonly alt: InputMaybe<SortOrderEnum>;
-  readonly background: InputMaybe<SortOrderEnum>;
+  readonly background: InputMaybe<FileSortInput>;
   readonly background_color: InputMaybe<SortOrderEnum>;
-  readonly foreground: InputMaybe<SortOrderEnum>;
+  readonly foreground: InputMaybe<FileSortInput>;
 };
 
 type MdxFrontmatterFieldSelector = {
@@ -2673,12 +2672,11 @@ type MdxFrontmatterFieldSelector = {
   readonly recording: InputMaybe<FieldSelectorEnum>;
   readonly role: InputMaybe<FieldSelectorEnum>;
   readonly series: InputMaybe<FieldSelectorEnum>;
-  readonly slides: InputMaybe<FileFieldSelector>;
+  readonly slides: InputMaybe<FieldSelectorEnum>;
   readonly sponsors: InputMaybe<FieldSelectorEnum>;
   readonly stats: InputMaybe<MdxFrontmatterStatsFieldSelector>;
   readonly time_close: InputMaybe<FieldSelectorEnum>;
   readonly time_start: InputMaybe<FieldSelectorEnum>;
-  readonly timezone: InputMaybe<FieldSelectorEnum>;
   readonly title: InputMaybe<FieldSelectorEnum>;
   readonly week_number: InputMaybe<FieldSelectorEnum>;
   readonly weight: InputMaybe<FieldSelectorEnum>;
@@ -2708,12 +2706,11 @@ type MdxFrontmatterFilterInput = {
   readonly recording: InputMaybe<StringQueryOperatorInput>;
   readonly role: InputMaybe<StringQueryOperatorInput>;
   readonly series: InputMaybe<IntQueryOperatorInput>;
-  readonly slides: InputMaybe<FileFilterInput>;
+  readonly slides: InputMaybe<StringQueryOperatorInput>;
   readonly sponsors: InputMaybe<StringQueryOperatorInput>;
   readonly stats: InputMaybe<MdxFrontmatterStatsFilterListInput>;
   readonly time_close: InputMaybe<StringQueryOperatorInput>;
   readonly time_start: InputMaybe<StringQueryOperatorInput>;
-  readonly timezone: InputMaybe<StringQueryOperatorInput>;
   readonly title: InputMaybe<StringQueryOperatorInput>;
   readonly week_number: InputMaybe<IntQueryOperatorInput>;
   readonly weight: InputMaybe<IntQueryOperatorInput>;
@@ -2831,12 +2828,11 @@ type MdxFrontmatterSortInput = {
   readonly recording: InputMaybe<SortOrderEnum>;
   readonly role: InputMaybe<SortOrderEnum>;
   readonly series: InputMaybe<SortOrderEnum>;
-  readonly slides: InputMaybe<FileSortInput>;
+  readonly slides: InputMaybe<SortOrderEnum>;
   readonly sponsors: InputMaybe<SortOrderEnum>;
   readonly stats: InputMaybe<MdxFrontmatterStatsSortInput>;
   readonly time_close: InputMaybe<SortOrderEnum>;
   readonly time_start: InputMaybe<SortOrderEnum>;
-  readonly timezone: InputMaybe<SortOrderEnum>;
   readonly title: InputMaybe<SortOrderEnum>;
   readonly week_number: InputMaybe<SortOrderEnum>;
   readonly weight: InputMaybe<SortOrderEnum>;

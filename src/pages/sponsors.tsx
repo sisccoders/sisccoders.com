@@ -45,7 +45,7 @@ const SponsorsPage = ({ data }: Props) => {
         <div className="flex flex-col gap-4">
           {featured_orgs.length > 0 ? (
             <span>
-              <h2>Workshop Sponsors</h2>
+              <h2>Sample Featured Sponsors</h2>
               <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                 {featured_orgs.map((sponsor, sponsor_idx) => (
                   <div key={sponsor_idx} className="flex grow">
@@ -73,8 +73,8 @@ const SponsorsPage = ({ data }: Props) => {
         <h2>Interested in sponsoring?</h2>
         <p>
           Please contact us at <a href="mailto:sisccoders@sgen.edu.ph">sisccoders@sgen.edu.ph</a>!
-          Sponsors can receive a variety of benefits, from resume books to 
-          recruiting events. We are happy to work with you!
+          Sponsors can receive a variety of benefits, from promotion to feedback to 
+          talent recruitment. We are happy to work with you!
         </p>
       </div>
     </div>
