@@ -11,18 +11,18 @@ const config: GatsbyConfig = {
       { name: "SISC Coders", url: "/" },
       { name: "About", url: "/about/" },
       { name: "Meetings", url: "/meetings/" },
-      { name: "Publications", url: "/publications/"},
+      { name: "Projects", url: "/publications/"},
       { name: "Events", url: "/events/" },
       { name: "Sponsors", url: "/sponsors/" },
     ],
     navCallToActionLinks: [{ name: "Join", url: "/join/" }],
     socialLinks: [
       { name: "Discord", url: "https://discord.gg/ZnxdrH9k5y" },
-      { name: "GitHub", url: "https://github.com/sisccoders/SISC-Coders-2023" },
-      { name: "Instagram", url: "https://www.instagram.com/nerdykoreankid/" },
+      { name: "GitHub", url: "https://github.com/sisccoders/sisccoders.com" },
+      { name: "Instagram", url: "https://www.instagram.com/sisccodersclub/" },
     ],
     twitterUsername: "@sigpwny",
-    timezone: "America/Chicago",
+    timezone: "Asia/Manila",
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin

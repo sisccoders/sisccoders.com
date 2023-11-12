@@ -11,8 +11,8 @@ interface Props {
 export const Head = () => {
   return (
     <Seo
-      title="Publications"
-      description="Index of all featured SIGPwny publications"
+      title="Projects"
+      description="Index of all featured SISC Coders Projects"
     />
   );
 };
@@ -24,7 +24,7 @@ const PublicationsPage = ({ data }: Props) => {
   );
   return (
     <section id="publications" className="pb-8">
-      <h1>Publications</h1>
+      <h1>Projects</h1>
       <CardGrid cards={publication_cards} />
     </section>
   );

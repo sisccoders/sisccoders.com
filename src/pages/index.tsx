@@ -81,7 +81,7 @@ const IndexPage = ({ data }: Props) => {
       <section id="publications" className="pb-8">
         <div className="flex flex-col sm:flex-row gap-1 justify-between mb-3">
           <h1 className="m-0">
-            Publications
+            Projects
           </h1>
           <Link to="/publications/" className="self-start button !text-white bg-surface-100 hover:bg-surface-150">
             <span>

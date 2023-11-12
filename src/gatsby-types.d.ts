@@ -2605,7 +2605,6 @@ type MdxFrontmatter = {
   readonly slides: Maybe<File>;
   readonly sponsors: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly stats: Maybe<ReadonlyArray<Maybe<MdxFrontmatterStats>>>;
-  readonly tags: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly time_close: Maybe<Scalars['Date']>;
   readonly time_start: Maybe<Scalars['Date']>;
   readonly timezone: Maybe<Scalars['String']>;
@@ -2641,28 +2640,28 @@ type MdxFrontmatter_time_startArgs = {
 
 type MdxFrontmatterCard_image = {
   readonly alt: Maybe<Scalars['String']>;
-  readonly background: Maybe<File>;
+  readonly background: Maybe<Scalars['String']>;
   readonly background_color: Maybe<Scalars['String']>;
   readonly foreground: Maybe<Scalars['String']>;
 };
 
 type MdxFrontmatterCard_imageFieldSelector = {
   readonly alt: InputMaybe<FieldSelectorEnum>;
-  readonly background: InputMaybe<FileFieldSelector>;
+  readonly background: InputMaybe<FieldSelectorEnum>;
   readonly background_color: InputMaybe<FieldSelectorEnum>;
   readonly foreground: InputMaybe<FieldSelectorEnum>;
 };
 
 type MdxFrontmatterCard_imageFilterInput = {
   readonly alt: InputMaybe<StringQueryOperatorInput>;
-  readonly background: InputMaybe<FileFilterInput>;
+  readonly background: InputMaybe<StringQueryOperatorInput>;
   readonly background_color: InputMaybe<StringQueryOperatorInput>;
   readonly foreground: InputMaybe<StringQueryOperatorInput>;
 };
 
 type MdxFrontmatterCard_imageSortInput = {
   readonly alt: InputMaybe<SortOrderEnum>;
-  readonly background: InputMaybe<FileSortInput>;
+  readonly background: InputMaybe<SortOrderEnum>;
   readonly background_color: InputMaybe<SortOrderEnum>;
   readonly foreground: InputMaybe<SortOrderEnum>;
 };
@@ -2693,7 +2692,6 @@ type MdxFrontmatterFieldSelector = {
   readonly slides: InputMaybe<FileFieldSelector>;
   readonly sponsors: InputMaybe<FieldSelectorEnum>;
   readonly stats: InputMaybe<MdxFrontmatterStatsFieldSelector>;
-  readonly tags: InputMaybe<FieldSelectorEnum>;
   readonly time_close: InputMaybe<FieldSelectorEnum>;
   readonly time_start: InputMaybe<FieldSelectorEnum>;
   readonly timezone: InputMaybe<FieldSelectorEnum>;
@@ -2729,7 +2727,6 @@ type MdxFrontmatterFilterInput = {
   readonly slides: InputMaybe<FileFilterInput>;
   readonly sponsors: InputMaybe<StringQueryOperatorInput>;
   readonly stats: InputMaybe<MdxFrontmatterStatsFilterListInput>;
-  readonly tags: InputMaybe<StringQueryOperatorInput>;
   readonly time_close: InputMaybe<DateQueryOperatorInput>;
   readonly time_start: InputMaybe<DateQueryOperatorInput>;
   readonly timezone: InputMaybe<StringQueryOperatorInput>;
@@ -2853,7 +2850,6 @@ type MdxFrontmatterSortInput = {
   readonly slides: InputMaybe<FileSortInput>;
   readonly sponsors: InputMaybe<SortOrderEnum>;
   readonly stats: InputMaybe<MdxFrontmatterStatsSortInput>;
-  readonly tags: InputMaybe<SortOrderEnum>;
   readonly time_close: InputMaybe<SortOrderEnum>;
   readonly time_start: InputMaybe<SortOrderEnum>;
   readonly timezone: InputMaybe<SortOrderEnum>;
