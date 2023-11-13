@@ -4,6 +4,6 @@ profile_image: "Finn.png"
 handle: "Finn"
 role: "Ex Vice President"
 period: "Class of 2023"
-work: "grad student @ gatech"
+work: ""
 weight: 0
 ---
