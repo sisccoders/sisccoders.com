@@ -3,10 +3,10 @@ import remarkGfm from "remark-gfm";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `SIGPwny`,
-    siteUrl: `https://sigpwny.com`, // no trailing slash
+    title: `SISC Coders`,
+    siteUrl: `https://sisccoders.com`, // no trailing slash
     description: `Coders Club is a collaborative space in Southville International School and Colleges for anyone interested in coding.`,
-    image: `https://sigpwny.com/pwny8-dark-512x512.png`,
+    image: `https://sischub.com/wp-content/uploads/2023/11/logo-dark-512.png`,
     navLinks: [
       { name: "SISC Coders", url: "/" },
       { name: "About", url: "/about/" },
@@ -21,7 +21,7 @@ const config: GatsbyConfig = {
       { name: "GitHub", url: "https://github.com/sisccoders/sisccoders.com" },
       { name: "Instagram", url: "https://www.instagram.com/sisccodersclub/" },
     ],
-    twitterUsername: "@sigpwny",
+    twitterUsername: "",
     timezone: "Asia/Manila",
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.

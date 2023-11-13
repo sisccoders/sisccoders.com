@@ -438,7 +438,7 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
 exports.createResolvers = ({ createResolvers }) => {
   const createICalendarUID = (uniq_id: string) => {
     const hash = crypto.createHash("sha256").update(uniq_id).digest("hex");
-    return `${hash}@sigpwny.com`;
+    return `${hash}@sisccoders.com`;
   }
   const createICalendarDescription = (
     description: string,
@@ -478,7 +478,7 @@ exports.createResolvers = ({ createResolvers }) => {
         resolve: (source, args, context, info) => {
           return {
             title: source.siteMetadata.title || "SISC Coders",
-            siteUrl: source.siteMetadata.siteUrl || "https://sigpwny.com",
+            siteUrl: source.siteMetadata.siteUrl || "https://sisccoders.com",
             description: source.siteMetadata.description || "",
             image: source.siteMetadata.image || "",
             navLinks: source.siteMetadata.navLinks || [],
@@ -486,7 +486,7 @@ exports.createResolvers = ({ createResolvers }) => {
               source.siteMetadata.navCallToActionLinks || [],
             socialLinks: source.siteMetadata.socialLinks || [],
             twitterUsername: source.siteMetadata.twitterUsername || "@sisccoders",
-            timezone: source.siteMetadata.timezone || "America/Chicago",
+            timezone: source.siteMetadata.timezone || "Asia/Manila",
           };
         },
       },

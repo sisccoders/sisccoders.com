@@ -1,3 +1,3 @@
 # Security Policy
 
-Please report vulnerabilities to `admin at sigpwny dot com` with the email subject `sigpwny.com Security Issue`.
+Please report vulnerabilities to `Student Leader at sisccoders dot com` with the email subject `sisccoders.com Security Issue`.
